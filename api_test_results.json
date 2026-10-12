@@ -1,0 +1,33 @@
+{
+  "timestamp_utc": "2026-10-12T09:33:58.587931+00:00",
+  "base_url": "http://localhost:8080",
+  "test_plan_file": "C:\\Test\\AI-Agent\\login_register_demo\\api_test_plan.json",
+  "total": 2,
+  "passed": 2,
+  "failed": 0,
+  "api_test_passed": true,
+  "results": [
+    {
+      "name": "Register user",
+      "method": "POST",
+      "path": "/api/auth/register",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "error": null,
+      "response": "User registered successfully: unique_username"
+    },
+    {
+      "name": "Authenticate user",
+      "method": "POST",
+      "path": "/api/auth/login",
+      "expected_status": 200,
+      "actual_status": 200,
+      "passed": true,
+      "error": null,
+      "response": {
+        "token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1bmlxdWVfdXNlcm5hbWUiLCJpYXQiOjE3OTE3OTc2MzgsImV4cCI6MTc5MTg4NDAzOH0.UCs-bptiEgxryTSFcKEX7EvNegwVy-CG-oxMp9zN9-fzSOP61-xYyl2GRD50L94tBml4K0U4_YHCTyDScAHZbA"
+      }
+    }
+  ]
+}

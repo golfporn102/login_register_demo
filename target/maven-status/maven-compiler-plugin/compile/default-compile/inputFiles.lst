@@ -1,0 +1,9 @@
+C:\Test\AI-Agent\login_register_demo\src\main\java\com\example\demo\repository\UserRepository.java
+C:\Test\AI-Agent\login_register_demo\src\main\java\com\example\demo\service\UserService.java
+C:\Test\AI-Agent\login_register_demo\src\main\java\com\example\demo\entity\User.java
+C:\Test\AI-Agent\login_register_demo\src\main\java\com\example\demo\DemoApplication.java
+C:\Test\AI-Agent\login_register_demo\src\main\java\com\example\demo\security\JwtUtils.java
+C:\Test\AI-Agent\login_register_demo\src\main\java\com\example\demo\security\AuthTokenFilter.java
+C:\Test\AI-Agent\login_register_demo\src\main\java\com\example\demo\security\UserDetailsServiceImpl.java
+C:\Test\AI-Agent\login_register_demo\src\main\java\com\example\demo\security\SecurityConfig.java
+C:\Test\AI-Agent\login_register_demo\src\main\java\com\example\demo\controller\AuthController.java

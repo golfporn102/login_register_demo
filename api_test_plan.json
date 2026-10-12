@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Register user",
+    "method": "POST",
+    "path": "/api/auth/register",
+    "request_body": {
+      "username": "unique_username",
+      "password": "secure_password"
+    },
+    "expected_status": 200,
+    "notes": "Request body replaced generic 'string' placeholders with valid business data format. Expected status cannot be established without controller annotations or service logic evidence."
+  },
+  {
+    "name": "Authenticate user",
+    "method": "POST",
+    "path": "/api/auth/login",
+    "request_body": {
+      "username": "unique_username",
+      "password": "secure_password"
+    },
+    "expected_status": 200,
+    "notes": "Request body replaced generic 'string' placeholders with valid business data format. Expected status cannot be established without controller annotations or service logic evidence."
+  }
+]

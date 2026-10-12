@@ -1,0 +1,11 @@
+create project 
+- java 21
+- can regsiter
+- can login jwt
+- data store in postgre
+- entity in entity package
+- security in security package
+- service class in service package
+- script create table  
+- add url api Health URL: http://localhost:8080/actuator/health 
+- scheme demo username: postgre password:MyNewPass123
